@@ -60,7 +60,7 @@ const AboutSection = () => {
         });
     };
   return (
-    <section className='text-white'>
+    <section className="text-white" id="about">
 
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
             
@@ -72,12 +72,12 @@ const AboutSection = () => {
             />
 
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-                <h2 className='text-4xl font-bold text-white mb-4'>
+                <h2 className='text-4xl font-bold text-white mb-4 text-center lg:text-left'>
                     About Me
                 </h2>
                 
-                <p className="text-base lg:text-lg">
-                    I am an enthusiastic software engineer, eager to embark on my professional journey in the world of technology. Armed with a Bachelor of Technology in Computer Science and Engineering, I bring a strong foundation in programming languages such as Java and a passion for problem-solving. I am excited to learn, adapt, and contribute to innovative projects while continuously honing my skills. I am committed to becoming a valuable member of any team, bringing fresh perspectives and a drive to make a meaningful impact through software development
+                <p className="text-center lg:text-left lg:text-lg ">
+                    I am an enthusiastic software engineer, eager to embark on my professional journey in the world of technology. Armed with a Bachelor of Technology in Computer Science and Engineering, I bring a strong foundation in programming languages such as Java and a passion for problem-solving. I am excited to learn, adapt, and contribute to innovative projects while continuously honing my skills. I am committed to becoming a valuable member of any team, bringing fresh perspectives and a drive to make a meaningful impact through software development.
                 </p>
                
                 <div className='flex flex-row mt-8'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterSection = () => {
   return (
-    <footer className="footer border border-top-[#33353F] border-l-transparent border-r-transparent text-white">
+    <footer className="footer border z-10 border-top-[#33353F] border-l-transparent border-r-transparent text-white">
       <div className="flex container p-5 justify-between">
         <span>
             Software Developer

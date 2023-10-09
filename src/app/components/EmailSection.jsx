@@ -11,7 +11,7 @@ import Image from 'next/image';
 const EmailSection = () => {
   
   return (
-    <section>
+    <section id='contact'>
       <h1 className="text-center text-4xl font-bold text-white pt-24 mt-4 mb-10 md:mb-12">
         Contact Me
       </h1>
